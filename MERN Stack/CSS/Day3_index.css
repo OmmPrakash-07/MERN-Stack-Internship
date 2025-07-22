@@ -1,0 +1,23 @@
+h1{
+    color: blue;
+    font-size: 40px;
+    background-color: lightgray;
+    text-align: center;
+}
+#para1{
+    color: green;
+    background-color: yellow;
+    font-size: 1.2em;
+}
+.test{
+    color: red;
+    font-size: 20px;
+    background-color: lightblue;
+    padding: 10px;
+}
+div p{
+    color: purple;
+    font-size: 18px;
+    background-color: lightgreen;
+    margin: 5px;
+}

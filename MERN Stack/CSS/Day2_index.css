@@ -1,0 +1,29 @@
+h2{
+    color: blue;
+    font-size: 24px;
+}
+#main-title{
+    color: purple;
+    text-align: center;
+    font-size: 28px;
+}
+.item{
+    color: green;
+    font-size: 20px;
+}
+#list1{
+    color: orange;
+    font-size: 18px;
+}
+#Welcome{
+    background-color: yellow;
+    color: red;
+    font-size: 30px;
+}
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: lightblue;
+    margin-top: 40px;
+    border-radius: 5px;
+}

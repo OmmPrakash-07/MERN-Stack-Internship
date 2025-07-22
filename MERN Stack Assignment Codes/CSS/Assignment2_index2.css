@@ -1,0 +1,29 @@
+#header-title {
+    color: darkblue;
+    text-align: center;
+}
+
+.tagline {
+    font-style: italic;
+    color: lightgray;
+    text-align: center;
+}
+
+#categories .category {
+    color: green;
+    font-weight: bold;
+}
+
+.highlight h3 {
+     color: red;
+}
+
+.highlight .description {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#footer p {
+    text-align: center;
+    font-weight: bold;
+}

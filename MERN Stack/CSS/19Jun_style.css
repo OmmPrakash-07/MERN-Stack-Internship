@@ -1,0 +1,101 @@
+.grid-container{
+    background-color: aqua;
+    border: 8px solid black;
+}
+
+.item{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: 3px solid red;
+    margin: 6px;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    line-height: 200px;
+}
+
+#item3{
+    background-color: indigo;
+
+    /* top: 100px; */
+
+   /* position: relative; */
+
+   /* position: fixed; */
+
+    /* position: absolute; */
+
+   /* right: 5px;
+   bottom: 10px; */
+}
+
+#item5{
+    /* position: absolute; */
+    top: 100px;
+}
+
+
+
+
+.product-container{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.product-card{
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.badge{
+    background-color: green;
+    color: aliceblue;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    /* border-radius: 10px; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-bottom-right-radius: 8px;
+}
+
+.product-img{
+    width: 50%;
+    margin-top: 5px;
+}
+
+.title{
+    color: black;
+    font-size: 16px;
+}
+
+.price{
+    color: black;
+    font-weight: bolder;
+}
+
+.old-price{
+    text-decoration: line-through;
+    color: black;
+    font-size: 13px;
+}
+
+.rating{
+    color: gold;
+}
+
+.btn{
+    background-color: #1b5e20;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    /* margin-top: ; */
+}

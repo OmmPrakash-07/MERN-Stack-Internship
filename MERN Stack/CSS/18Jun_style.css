@@ -1,0 +1,28 @@
+.grid-container{
+    background-color: aqua;
+    border: 8px solid black;
+}
+
+.item{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: 3px solid red;
+    margin: 6px;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    line-height: 200px;
+}
+
+#item3{
+    background-color: indigo;
+   /* position: relative; */
+
+   /* position: fixed; */
+
+    position: absolute;
+
+   right: 5px;
+   bottom: 10px;
+}

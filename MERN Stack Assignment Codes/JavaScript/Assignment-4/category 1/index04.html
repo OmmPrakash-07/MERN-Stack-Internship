@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let char = prompt("Enter a character:");
+
+    char = char.toLowerCase();
+
+    if (char.length === 1 && char.match(/[a-z]/i)) {
+      if ("aeiou".includes(char)) {
+        console.log(char + " is a vowel.");
+      } else {
+        console.log(char + " is a consonant.");
+      }
+    } else {
+      console.log("Invalid input. Please enter a single alphabet character.");
+    }
+
+  </script>
+</body>
+
+</html>

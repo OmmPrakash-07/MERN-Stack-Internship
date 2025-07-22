@@ -1,0 +1,47 @@
+h2 {
+  color: green;
+  font-size: 20px;
+}
+
+#main-heading {
+  text-align: center;
+  color: purple;
+}
+
+.flower {
+  background-color: pink;
+  padding: 10px;
+}
+
+.tree {
+  background-color: lightgreen;
+}
+
+.flowers p {
+  font-style: italic;
+}
+
+.tree > h2 {
+  border: 2px solid brown;
+}
+
+.tree + .tree {
+  border: 2px dashed green;
+}
+
+.creature:hover {
+  color: red;
+}
+
+.flower:first-child {
+  background-color: lavender;
+}
+
+.flower:last-child {
+  background-color: lightblue;
+}
+
+#garden-footer:hover {
+  background-color: yellow;
+  font-size: 22px;
+}

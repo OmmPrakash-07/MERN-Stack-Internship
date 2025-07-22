@@ -1,0 +1,31 @@
+body{
+    background-color: aliceblue;
+}
+
+.boxes{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 300px;
+    width: 200px;
+    background-color: black;
+}
+
+
+@media (max-width:500px){
+    body{
+        background-color: chartreuse;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+    .box{
+        height: 300px;
+        /* width: 300px; */
+        width: 90%;
+    }
+}

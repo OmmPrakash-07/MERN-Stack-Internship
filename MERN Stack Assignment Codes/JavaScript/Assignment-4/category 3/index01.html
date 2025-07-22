@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let value1 = '5';
+    let value2 = 5;
+
+    console.log("value1:", value1, "(", typeof value1, ")");
+    console.log("value2:", value2, "(", typeof value2, ")");
+
+    console.log("\nUsing == (loose equality):");
+    if (value1 == value2) {
+      console.log("value1 == value2 is TRUE because == compares values after type conversion.");
+    } else {
+      console.log("value1 == value2 is FALSE.");
+    }
+
+    console.log("\nUsing === (strict equality):");
+    if (value1 === value2) {
+      console.log("value1 === value2 is TRUE.");
+    } else {
+      console.log("value1 === value2 is FALSE because === checks both value and type without conversion.");
+    }
+
+  </script>
+</body>
+
+</html>

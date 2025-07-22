@@ -1,0 +1,19 @@
+.box {
+    color: aliceblue;
+    background-color: rgb(21, 202, 202);
+    padding: 10px;
+    border: 2px  black;
+    margin: 20px;
+    border-style: dotted;
+    /* border-radius: 50%;
+    text-align: center; */
+}
+
+#Omm {
+    color: rebeccapurple;
+    background-color: aqua;
+    border: 20px solid brown;
+    border-radius: 20px;
+    padding: 10px 20px ;
+    width: 100px;
+}

@@ -1,0 +1,121 @@
+@@ -0,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"type="image/png" href="Pics\Logo2.png">
+    <title>About us</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    min-height: 100vh;
+    background-image: url(Background.jpg);
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px;
+    background-image: url(HeaderBar1.jpg);
+    background-size: cover;
+    border-bottom: 1px solid rgb(212, 175, 55);
+    box-shadow: 0 2px 15px rgba(255, 0, 0, 1);
+    transition: all 0.3s ease-in-out;
+    height: 130px;
+}
+.logo img{
+    position: absolute;
+    border-radius: 50%;
+    margin-top: -30px;
+    border: 3px solid rgb(212, 175, 55);
+}
+#nav-bar{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 350px;
+}
+#nav-bar li,a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+.intro-container{
+    padding: 20px 150px 10px 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro-container h1{
+    font-size: 50px;
+    margin: 50px;
+}
+.intro-container p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.intro-container ol{
+    font-size: 20px;
+    line-height: 30px;
+}
+main li{
+    list-style: none;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href=""><img src="Pics\Main_logo.jpg" alt="Pyscho Listener" width="180px"></a>
+            </div>
+            <nav>
+                <div>
+                    <ul id="nav-bar">
+                        <li><a href="HomePage.htm">Home</a></li>
+                        <li><a href="SongPage.htm">Songs</a></li>
+                        <li><a href="videos.html">Video</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="Contact_us.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="intro-container">
+            <h1>About Us</h1>
+            <p>Here music and visuals collide to create an immersive experience. Our platform is built for true audio lovers, offering a seamless way to listen to music and watch videos all in one place. Whether you crave haunting melodies, electrifying beats, or deep lyrical storytelling, we bring you a world of sound like never before. Tune in, explore, and let the music take over</p>
+        </div>
+        <div class="intro-container">
+            <h1>Created by</h1>
+            <ol>
+                <li>Zubaid Pasha</li>
+            </ol>
+        </div>
+    </main>
+</body>
+</html>

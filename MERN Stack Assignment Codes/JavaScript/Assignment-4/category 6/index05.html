@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const correctUsername = "user123";
+        const correctPassword = "pass123";
+
+        let username = prompt("Enter your username:");
+
+        if (username === correctUsername) {
+            let password = prompt("Enter your password:");
+
+            if (password === correctPassword) {
+                if (confirm("Do you want to proceed with login?")) {
+                    alert("Login successful! Welcome, " + username + ".");
+                } else {
+                    alert("Login cancelled.");
+                }
+            } else {
+                alert("Incorrect password.");
+            }
+        } else {
+            alert("Username not found.");
+        }
+
+    </script>
+</body>
+
+</html>

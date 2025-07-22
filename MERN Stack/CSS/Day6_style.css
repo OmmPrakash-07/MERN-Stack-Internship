@@ -1,0 +1,9 @@
+.box{
+    height: 200px;
+    width: 100px;
+    background-color: blueviolet;
+    background-image: url(lotus.jpg);
+    border-radius: 5px;
+    max-width: 500px;
+    min-width: 100px;
+}

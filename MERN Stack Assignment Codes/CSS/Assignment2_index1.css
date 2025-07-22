@@ -1,0 +1,22 @@
+h2 {
+  color: green;
+  font-size: 18px;
+}
+
+#main-title {
+  color: darkorange;
+  text-align: center;
+}
+
+#list1 {
+  color: teal;
+}
+
+.item {
+  color: darkgreen;
+}
+
+#welcome {
+  background-color: lightyellow;
+  padding: 10px;
+}

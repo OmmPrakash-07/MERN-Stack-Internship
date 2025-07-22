@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    function checkWeather(temp) {
+      if (temp < 15) {
+        console.log("It's cold outside. Wear warm clothes!");
+      } else if (temp >= 15 && temp <= 30) {
+        console.log("The weather is moderate. Have a nice day!");
+      } else {
+        console.log("It's hot outside. Stay hydrated!");
+      }
+    }
+
+    checkWeather(10);
+    checkWeather(22);
+    checkWeather(35);
+
+  </script>
+</body>
+
+</html>

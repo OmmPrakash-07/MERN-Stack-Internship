@@ -1,0 +1,23 @@
+.inline {
+  display: inline;
+  border: 2px solid #ff9800;
+  padding: 10px;
+  background-color: #ffe0b2;
+  margin: 5px;
+}
+
+.block {
+  display: block;
+  border: 2px solid #4caf50;
+  padding: 10px;
+  background-color: #c8e6c9;
+  margin: 5px;
+}
+
+.inline-block {
+  display: inline-block;
+  border: 2px solid #2196f3;
+  padding: 10px;
+  background-color: #bbdefb;
+  margin: 5px;
+}

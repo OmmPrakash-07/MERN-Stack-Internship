@@ -1,0 +1,47 @@
+h1{
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+}
+div p{
+    color: purple;
+    font-size: 18px;
+    background-color: lightgreen;
+    margin: 5px;
+}
+.monkey-area > .monkey{
+    background-color: lightyellow;
+    padding: 10px;
+    margin: 10px;
+}
+.monkey-area{
+    margin: 10px;
+}
+.lion + .elephant{
+    border: 3px dashed orange;
+}
+
+.elephant ~ .monkey-area{
+    border: 2px dotted green;
+}
+.para1::first-line{
+    color: red;
+    font-weight: bold;
+}
+.para1::first-letter{
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+}
+.quote::first-letter{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}.quote::before{
+    content: "Quote: ";
+    font-style: italic;
+}
+.quote::after{
+    content: " - End of Quote";
+    font-style: italic;
+}

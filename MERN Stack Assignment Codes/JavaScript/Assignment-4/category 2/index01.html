@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let grade;
+
+    if (marks >= 90) {
+      grade = 'A';
+    } else if (marks >= 80) {
+      grade = 'B';
+    } else if (marks >= 70) {
+      grade = 'C';
+    } else if (marks >= 60) {
+      grade = 'D';
+    } else {
+      grade = 'F';
+    }
+
+    return grade;
+
+
+    // Example usage
+    let studentMarks = prompt("Enter student's marks:");
+    studentMarks = parseInt(studentMarks);
+
+    if (!isNaN(studentMarks)) {
+      let grade = getGrade(studentMarks);
+      console.log(`The student's grade is: ${grade}`);
+    } else {
+      console.log("Invalid input. Please enter a number.");
+    }
+
+  </script>
+</body>
+
+</html>

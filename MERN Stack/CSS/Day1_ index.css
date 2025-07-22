@@ -1,0 +1,17 @@
+p{
+    color: blue;
+    font-size: 20px;
+    font-family: cursive;
+}
+h1{
+    color: red;
+    font-size: 50px;
+    font-family: monospace;
+}
+h2{
+    color: green;
+    font-size: 30px;
+}
+body{
+    background-color: lightblue
+}

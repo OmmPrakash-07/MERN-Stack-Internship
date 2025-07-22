@@ -1,0 +1,45 @@
+
+h1{
+    color: red;
+    text-align: center;
+    text-transform: ;
+}
+
+.flex-row{
+    background-color: lightblue;
+    display: flex;
+    /* flex-direction: column; */
+    border: 2px dashed black;
+    height: 1000px;
+    width: 1000px;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    font-size: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+/* p{
+    text-transform: uppercase;
+} */
+
+/* p::first-letter{
+    text-transform: lowercase;
+} */
+
+p{
+    text-transform: capitalize;
+}

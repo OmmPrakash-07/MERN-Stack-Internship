@@ -1,0 +1,8 @@
+.main-parent{
+    background-color: aqua;
+}
+
+.parent{
+    display: flex;
+}
+

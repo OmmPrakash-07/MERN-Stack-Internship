@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .input-container {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+
+        input {
+            padding: 12px 16px;
+            border: 2px solid #333;
+            border-radius: 6px;
+            font-size: 16px;
+            margin-right: 10px;
+            width: 250px;
+        }
+
+        button {
+            padding: 12px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        p#greeting {
+            background-color: #e0f7fa;
+            color: #00796b;
+            font-size: 28px;
+            padding: 20px 40px;
+            border-radius: 10px;
+            margin-top: 40px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            min-width: 300px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Saved Name</h1>
+
+    <div class="input-container">
+        <input type="text" id="nameInput" placeholder="Enter Your Name" />
+        <button id="saveBtn">SAVE</button>
+    </div>
+
+
+    <p id="greeting"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.container{
+    background-color: chartreuse;
+    height: 700px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 100px 100px 200px;
+    grid-template-rows: 100px 100px 250px;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.box{
+    background-color: black;
+    height: 80px;
+    width: 80px;
+    color: white;
+    border: 2px solid yellowgreen;
+    /* margin: 10px; */
+    display: flex;
+    gap: 5px;
+}

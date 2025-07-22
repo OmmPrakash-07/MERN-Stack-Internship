@@ -1,0 +1,77 @@
+#main-title{
+  text-align: center;
+  color: teal;
+}
+
+h3{
+  color: darkred;
+}
+
+.house, .throne-room, .castle, .center, .event-board, .guard-room, .village {
+  margin: 20px;
+  padding: 15px;
+  border: 2px solid #444;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+p{
+  color: #555;
+  font-family: 'Verdana', sans-serif;
+  line-height: 1.6;
+}
+
+.castle, .village, .house, .center {
+  background-color: #e0f7fa;
+}
+
+.house, .guard-room, .h3 {
+  /* background-color: #ffe0b2; */
+}
+
+.li, .house, .guard-room, .center{
+  list-style-type: square;
+  padding-left: 20px;
+  /* color: blue; */
+}
+
+.house:hover{
+  background-color: greenyellow;
+}
+.king, .queen{
+  color: gold;
+}
+  .king:hover,
+  .queen:hover, 
+  .resident-info:hover {
+  color: purple;
+  font-weight: bold;
+  /* text-decoration: underline; */
+}
+
+.castle > .throne-room {
+  /* background-color: #ffccbc; */
+  border: 2px solid #ff5722;
+}
+
+.village > .house {
+  border: 2px solid #4caf50;
+}
+
+.house + .house {
+  margin-top: 60px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-top: 1px dotted #ccc;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}

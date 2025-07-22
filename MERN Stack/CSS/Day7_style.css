@@ -1,0 +1,56 @@
+.ticket{
+    background-color: lavenderblush;
+    padding: 10px;
+    border: 2px solid lightcoral;
+    /* display: block; */
+}
+
+.ticket:hover{
+    background-color: lightcoral;
+    color: white;
+}   
+
+.name-tag{
+    background-color: gainsboro;
+    border: 2px solid darksalmon;
+    display: block;
+}
+
+#hi{
+    background-color: lightblue;
+    display: inline;
+}
+
+.block{
+    background-color: lime;
+    height: 110px;
+    width: 100px;
+    margin: 10px;
+
+}
+
+.inline{
+    display: block;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    font-size: 50px;
+}
+
+.CupCake{
+    /* visibility: hidden; */
+    background-color: lightpink;
+    height: 120px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.CupCake:hover{
+    background-color: hotpink;
+    color: white;
+}

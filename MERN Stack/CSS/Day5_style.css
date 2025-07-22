@@ -1,0 +1,27 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: greenyellow;
+}
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: lightcoral;
+}
+.c{
+    height: 100px;
+    width: 100px;
+    background-color: lightgreen;
+    border-radius: 50%;
+}
+.c1{
+    height: 50px;
+    width: 50px;
+    background-color: lightpink;
+    border-radius: 50%;
+}

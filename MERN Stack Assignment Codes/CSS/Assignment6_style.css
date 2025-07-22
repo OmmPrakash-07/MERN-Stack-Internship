@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    background-color: white;
+}
+
+.header {
+    height: 60px;
+    background-color: #1e2a38;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #00d1b2;
+    text-decoration: underline;
+}
+
+.dashboard-wrapper {
+    display: flex;
+    flex: auto;
+}
+
+.left-menu {
+    width: 200px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 20px;
+    ;
+}
+
+.left-menu a {
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #2b3a42;
+    /* transition: background-color 0.2s ease; */
+}
+
+.left-menu a:hover {
+    background-color: #c1c8cd;
+}
+
+.workspace {
+    padding: 25px;
+}
+
+.welcome-text {
+    font-size: 40px;
+    color: #2b3a42;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.task-area {
+    display: flex;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+}
+
+.task-item {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s ease;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.task-item h2 {
+    margin-bottom: 8px;
+    transition: text-decoration 0.3s ease;
+}
+
+.task-item:hover {
+    background-color: #f0f0f0;
+}
+
+.task-item:hover h2 {
+    text-decoration: underline;
+}
