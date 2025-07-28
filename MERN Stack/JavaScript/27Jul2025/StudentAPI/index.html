@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="student.css">
+</head>
+<body>
+  <header>
+    <h1>Register a Student</h1>
+  </header>
+  <div class="container">
+    <div class="form-container">
+      <h2>Fill the Details</h2>
+      <form id="studentForm">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter student name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter student email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="college">College</label>
+          <input type="text" id="college" name="college" placeholder="Enter college name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="description">Description</label>
+          <textarea id="description" name="description" rows="4" placeholder="Enter a short description" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Register</button>
+      </form>
+      <div class="nav-link">
+        <a href="students.html" class="link">View Registered Students</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="register.js"></script>
+</body>
+</html>
